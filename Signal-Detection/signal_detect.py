@@ -4,13 +4,10 @@ import math
 from typing import List
 
 
-# H0 : x[n] = w[n] n=0,...,N-1 (noise)
-# H1 : x[n] = s[n] + w[n] n=0,...,N-1 (signal + noise)
-
-
 AWGN = 0.3
 N = 25
 GAMMA = 1
+
 
 def generate_signal(n:int)->List[int]:
 	""" Function that creates a random binary signal. """
