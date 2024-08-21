@@ -34,6 +34,7 @@ Apply Neyman-Pearson rule :
 
 $$ \left( \frac{P(x;H1)}{P(x;H0)} \right) \gt  \gamma $$
 
+<!---
 $$  exp{(-\frac{1}{2\sigma²} ((x-s)^T(x-s) - x^Tx) )}  \gt  \gamma $$
 
 $$  -\frac{1}{2\sigma²} ((x-s)^T(x-s) - x^Tx)   \gt  ln(\gamma) $$
@@ -45,3 +46,4 @@ $$  - s^Ts + 2x^Ts   \gt  ln(\gamma)2\sigma² $$
 $$ x^Ts   \gt  ln(\gamma)2\sigma² + \frac{1}{2} s^Ts$$
 
 $$ \left( \sum_{n=0}^{N-1} x[n]s[n] \right) \gt  ln(\gamma) \sigma² + \frac{1}{2} \left( \sum_{n=0}^{N-1} s[n]²\right) $$
+-->
