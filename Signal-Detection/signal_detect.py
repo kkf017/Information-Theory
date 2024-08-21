@@ -3,7 +3,6 @@ import math
 
 from typing import List
 
-# Rename github-Repositories -> Repository-1, Repository-2, ....etc
 
 # H0 : x[n] = w[n] n=0,...,N-1 (noise)
 # H1 : x[n] = s[n] + w[n] n=0,...,N-1 (signal + noise)
